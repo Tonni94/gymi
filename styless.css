@@ -1,0 +1,84 @@
+body {
+    background-image: url('../black-concrete-wall_24972-1046.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
+
+#otsikko {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#wrapper {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 30px;
+row-gap: 3em;
+position:relative;
+}
+#wrapper h2 {
+    color: rgb(255, 255, 255);
+    border: 3mm ridge rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px;
+    width: auto;
+    height: 100px;
+}
+
+   #lista {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    font-size: large;
+}
+
+#jasen {
+    color: rgb(255, 255, 255);
+   position: relative;
+   top: 416px;
+   left: 1367px;
+   padding: 3px;
+   max-width: 26.4%;
+   border: solid white;
+   height: 388px;
+   margin: 10px;
+}
+#sivukuvaa {
+    position:absolute; top:0; right:0;
+    outline: black;
+}
+
+#ajanvaraus {
+    color: rgb(255, 255, 255); ;
+    position: absolute;
+    top: 840px;
+    left: 0px;
+}
+#ajanvaraus a {
+color:  rgb(255, 255, 255);
+position: absolute;
+top: auto;
+left: auto;
+text-decoration: none;
+font-size: large;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: gray;
+    padding: 1px
+    
+    }
+
+footer a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 1px;
+   
+}
